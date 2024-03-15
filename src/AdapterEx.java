@@ -48,6 +48,7 @@ class AdapterEx extends Frame implements ActionListener {
 		});
 	}
 
+	//Test
 	public void actionPerformed(ActionEvent e) {
 		String str = e.getActionCommand();
 		if (str.equals("Clear")) {
